@@ -17,6 +17,5 @@
         "psr-4": {
             "svit\\smsc\\": "src"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
