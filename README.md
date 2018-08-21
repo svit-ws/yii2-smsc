@@ -28,4 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \svit\smsc\AutoloadExample::widget(); ?>```
+<?php
+$sms = new \svit\smsc\SMS(); 
+$sms->send('+3801111111111', 'SMS text', $options);
+?>```
