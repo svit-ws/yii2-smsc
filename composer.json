@@ -1,0 +1,21 @@
+{
+    "name": "svit-ws/yii2-smsc",
+    "description": "Extension for working with SMS services: smsc.ru, smsc.ua",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sms","smsc"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SVit",
+            "email": "info@svit.ws"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "svit\\smsc\\": ""
+        }
+    }
+}
